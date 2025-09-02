@@ -1,0 +1,16 @@
+:root{
+  --primary-700:#0b3b72;
+  --primary-800:#072e59;
+}
+.bg-primary{background-color:var(--primary-700)!important;}
+.bg-primary-dark{background-color:var(--primary-800)!important;}
+.hero{
+  min-height: 58vh;
+  background: linear-gradient( to bottom, rgba(7,46,89,.75), rgba(7,46,89,.75) ),
+              url('https://images.unsplash.com/photo-1529336953128-a85760f58b19?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat fixed;
+  display:flex;
+  align-items:center;
+}
+.object-fit-cover{object-fit:cover}
+.rounded-4{border-radius:1rem!important}
+footer a:hover{text-decoration:underline}
